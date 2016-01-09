@@ -1,0 +1,63 @@
+
+body {
+  font-size: 15px;
+  font-family: arial, helvetica, sans-serif;
+  color: black;
+}
+
+h1 {
+  margin-top: 70px;
+  text-align: left;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h4 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 15px;
+}
+p.biblio {
+  margin-left: 3em;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  text-indent: -3em !important;
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+.starred {
+  color: red;
+/*  font-size: 24px;*/
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  margin-top: 0.3em;
+  line-height: 1.5em;  
+}
+
+a {
+  text-decoration: underline;
+  color: #215990;
+}
+
+div#content {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  max-width: 700px;
+}
+
+hr {
+  width: 50%;
+}
+
