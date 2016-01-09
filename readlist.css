@@ -10,11 +10,20 @@ a {
   color: #215990;
 }
 
+/*
+@media (max-width: 1200px) {
+  div#iacs2016readlist {
+    position: relative;
+    width: 95%;
+  }
+}
+*/
+
 div#iacs2016readlist {
   position: relative;
   margin: auto;
-  width: 80%;
-  max-width: 700px;
+  width: 90%;
+  max-width: 600px;
 }
 
 #iacs2016readlist > h1 {
@@ -36,6 +45,7 @@ div#iacs2016readlist {
   font-weight: 600;
   font-size: 15px;
 }
+
 #iacs2016readlist > p.biblio {
   margin-left: 2em;
   margin-top: 18px;
@@ -45,12 +55,7 @@ div#iacs2016readlist {
   text-align: justify;
 }
 
-.speaker {
-  background-color: #ffffb0;
-}
-
 .starred {
   color: red;
-/*  font-size: 24px;*/
 }
 
